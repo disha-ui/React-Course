@@ -1,0 +1,32 @@
+ .card-main{
+    height: 500px;
+    width: 0px;
+    border: 1px solid rgb(119, 44, 44);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    /* gap: 10px; */
+    /* position: absolute; */
+    /* transform: translate(450px,100px); */
+ } 
+img{
+    min-height: 100px;
+    min-width: none;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.main-container{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-inline: 30px;
+    text-align: center;
+    margin-block: 20px;
+} 
+
+
